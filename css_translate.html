@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>css translate</title>
+	<style >
+		div{
+			box-shadow:0 0 10px black;
+			width: 280px;
+			margin: 70px auto;
+			border-radius: 30px;
+			overflow: hidden;
+			position: relative;
+		}div>img{
+			width: inherit;
+			height: inherit;
+			border-radius: 20px 20px 0px 0px;
+			transition: all 1s linear 0s;
+		}
+		div:hover>img
+		{
+			transform: translateY(-110px);
+		} 
+		ol{
+			list-style-type: none;
+		} ol>li{
+			text-align: center;
+			border:2px solid black;
+			width: 200px;
+			margin-bottom: 5px;
+		} div>#details
+		{
+			position: absolute;
+			top:183px;
+			left:0px;
+			background-color: hsl(0,24%,61%);
+			height: 110px;
+			border-radius: 0px 0px 20px 20px;
+			transition: all 1s linear 0s;
+		} div:hover>#details
+		{
+			transform: translateY();
+		}
+	</style>
+</head>
+<body><div>
+	<img src="https://images.pexels.com/photos/3680219/pexels-photo-3680219.jpeg?cs=srgb&dl=pexels-lukas-rodriguez-3680219.jpg&fm=jpg" width="400px" height="400px">
+	<div id="details">
+		<ol><li>sun set</li>
+			<li>tree</li>
+			<li>peace</li></ol>
+	</div></div>
+</body>
+</html>

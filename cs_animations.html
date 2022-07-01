@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>css animations</title>
+	<style>
+		div{
+			background:linear-gradient(40deg,red,cyan,blue,green);
+			width: 30px;
+			height: 50px;
+			position: relative;
+			animation-name: move;
+			animation-duration: 1s;
+			animation-timing-function: linear;
+			animation-delay: 0s;
+			animation-direction: start;
+			animation-iteration-count: 5;
+		}
+		@keyframes move{
+			0%,100%{
+				top: 0;
+				left: 0;
+
+			}
+			25%{
+				top: 0px;
+				left: 150px;
+
+			}
+			50%{
+				top: 150px;
+				left: 150px;
+			}
+			75%{
+				top: 150px;
+				left: 0;
+			}
+		}
+	</style>
+</head>
+<body><div></div>
+
+</body>
+</html>

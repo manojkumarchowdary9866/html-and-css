@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>css transform scale</title>
+	<style >
+		div{
+			margin: 70px auto;
+			width: 300px;
+			height: 167px;
+			border:2px solid red;
+			
+
+		}
+		img{
+			width: inherit;
+			height: inherit;
+			transition: all 1s linear 0s;
+			filter: grayscale(100px);
+		}
+		div:hover{
+			cursor: pointer;
+		}
+		div:hover>img{
+			transform: scale(1.2,1.2);
+			filter: grayscale(0px);
+		}
+		
+	</style>
+</head>
+<body><div>
+
+	<img src="ntr.jpg"></div>
+	
+</body>
+</html>

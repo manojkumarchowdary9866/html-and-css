@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>custom forms</title>
+	<style >
+		table
+		{
+          width: 500px;
+          border:2px solid white;
+          margin: 10px auto;
+
+          
+          background-color: blue;
+		}
+		button:hover
+		{
+				border-radius: 30px;
+				background-color: red;
+				color: white;
+		}
+		#aa{
+			color: cyan;
+			border-color: green;
+		}
+		
+		
+	</style>
+</head>
+<body>
+    <div>
+    	
+    	<form onsubmit="validate()" method="post">
+    		<table border="2" cellpadding="5px">
+    			<tr>	<h1>km custom  html form example using applescript</h1></tr>
+    			<tr>
+    				<td><label>name</label></td>
+    				<td><input type="text" name="" placeholder="enter your name"></td>
+    			</tr>
+    			<tr>
+    				<td><label> email</label></td>
+    				<td><input type="email" name="" placeholder="enter your name"></td>
+    			</tr>
+    			<tr>
+    				<td><label>password</label></td>
+    				<td><input type="password" name="" placeholder="enter your password"></td>
+    			</tr>
+    			<tr>
+    				<td><label>approval require</label></td>
+    				<td><input type="checkbox" name=""> do you approve</td>
+    			</tr>
+    			<tr>
+    				<td ><label>pick your favourite</label></td>
+    				<td><input type="radio" name="1">choice a
+    			
+    					<input type="radio" name="1">choice b
+    					<input type="radio" name="1">choice c</td>
+    			</tr>
+    			<tr>
+    			<td>	<label>pop menu	</label></td>
+    			<td><input type="text" name=""></td>
+    			</tr>
+    			<tr>
+    			<td>	<label>list	</label></td>
+    			<td><select><option>ladak</option>
+    				<option>leh</option>
+    				<option>srinagar</option>
+    				<option>ooty</option></select></td>	
+    				<tr>
+    			<td>	<label>feild ingore by km</label></td><td><input type="number" name=""></td>
+    			</tr>
+    			<tr>
+    			<td>	<label>	textarea</label></td>
+    			<td><textarea cols="20" rows="5"></textarea></td>	
+    			</tr>
+    			<tr ><td > <button id="aa">	save</button>
+    				<button>	cancel</button>
+    				<button>sesize</button></td></tr>
+    			
+    		</table>
+
+    	</form>
+    </div>
+</body>
+</html>

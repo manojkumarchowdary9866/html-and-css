@@ -1,0 +1,35 @@
+h1
+{
+	background-color:blue;
+	color:white;
+	margin-right:700px;
+	margin-left:700px;
+
+}
+h2
+{
+	background-color:yellow;
+
+	color:red;
+	margin-right:580px;
+	margin-left:849px;
+}
+h3
+{
+	background-color:blue;
+	color:white;
+	margin-right:700px;
+	margin-left:700px;
+	
+}
+h4
+{
+	background-color:yellow;
+	margin-right:850px;
+	margin-left:600px;
+
+	color:red;
+	border-width:10px;
+	margin-top:-85px;
+
+}
